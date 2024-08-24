@@ -1,5 +1,5 @@
 title: Operating Systems Programming
-version:     "009---24-Jul-2024"
+version:     "Sat 24 Aug 2024 08:00"
 copyright:   "2024-2024"
 description: This is the Operating System course site,
       a GitHub Page, hosted at GitHub.com (thank you!).
@@ -18,12 +18,12 @@ sitemap: true
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
-urlweb:           "https://docOS.vlsm.org/"
+urlweb:           "https://docos.vlsm.org/"
 urlscele:         "https://scele.cs.ui.ac.id/course/view.php?id=3743"
 urllogcode:       "https://doit.vlsm.org/ETC/logCodes.txt"
 urlcontact:       "TBA"
-urlgithub:        "https://github.com/os2xx/docOS/"
-urlghpage:        "https://docOS.vlsm.org/"
+urlgithub:        "https://github.com/os2xx/docos/"
+urlghpage:        "https://docos.vlsm.org/"
 keywords:         "jekyll, testing"
 github:           [metadata]
 
