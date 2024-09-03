@@ -4,7 +4,7 @@
 % License: % CC BY-NC-SA 3.0 (http://creativecommons.org/)
 % Modified by Rahmat M. Samik-Ibrahim
 
-% REV420: Sat 24 Aug 2024 10:00
+% REV424: Tue 03 Sep 2024 20:00
 % REV419: Wed 24 Jul 2024 18:00
 % REV395: Sun 11 Sep 2022 22:00
 % REV369: Mon 14 Feb 2022 16:00
@@ -502,9 +502,12 @@ u         & undo                         & :1,8 w! file.txt & write line 1 to 8 
 \begin{itemize}
 \item $\ll$\texttt{(\ldots)}$\gg$ --- group.
 \begin{itemize}
-\item $\ll$\texttt{(?:\ldots)}$\gg$ --- passive group.
+\item $\ll$\texttt{(?:\ldots)}$\gg$ --- passive group without creating a backreference.
+\begin{itemize}
+\item $\ll$\texttt{(?:abc\textbar{}def)ghi}$\gg$ --- matches either ''abc'' or ''def'' followed by ''ghi''
+\end{itemize}
 \item $\ll$\texttt{(regex)$\mid$(regex)}$\gg$ --- matches left regex or right regex.
-\item $\ll$\texttt{(a\textbar{}b}$\gg$ --- matches either a or b.
+\item $\ll$\texttt{(a\textbar{}b)}$\gg$ --- matches either a or b.
 \item $\ll$\texttt{\^{}(From\textbar{}To):}$\gg$ --- matches either $\ll$\texttt{\^{}From:}$\gg$ or
       $\ll$\texttt{\^{}To:}$\gg$.
 \end{itemize}
